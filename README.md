@@ -1,10 +1,17 @@
 # vue3_base
 
-專案選用PrimevueUI的Sakai模板進行開發
-並撰寫針對Firebase的Utils，可對應各種前台並快速開發
+此專案是對應客製化較多的前台製作
 
-此後台框架的主旨可快速應用於使用Firebase為資料庫的專案
-後台所需相關功能皆已包裝為元件
+基於vue3_base_system修改，除去前台不必要之元件並刪去firebase及各種組件
+
+僅保留utils較為可能使用到的功能
+
+
+重點為依舊使用的primevue，此專案搭配tailwindcss採用unstyled
+
+使用tailwindcss是為了快速套用使用builder.io切出來的版型，且客製化大多需要另外切版
+
+所以不使用primevue提供的樣式
 
 ## Recommended IDE Setup
 
