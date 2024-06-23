@@ -1,6 +1,6 @@
 import moment from 'moment-timezone'
 
-class ConvertDate {
+class Time {
   constructor() {}
   /**
    * 回傳毫秒
@@ -33,4 +33,4 @@ class ConvertDate {
   }
 }
 
-export { ConvertDate as default }
+export { Time as default }

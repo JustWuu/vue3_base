@@ -55,6 +55,8 @@ const router = createRouter({
 
 // https://book.vue.tw/CH4/4-4-navigation-guards.html
 // 路由守衛
-// router.beforeEach((to) => {})
+router.beforeEach((to) => {
+  document.title = `${to.meta.title} - 網站名稱`
+})
 
 export default router
