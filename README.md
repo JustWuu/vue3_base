@@ -75,5 +75,5 @@ pnpm test:e2e
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run lint
+pnpm lint
 ```
