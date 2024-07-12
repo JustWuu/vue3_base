@@ -68,8 +68,8 @@ It is much faster than the production build.
 But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
 
 ```sh
-npm run build
-npm run test:e2e
+pnpm build
+pnpm test:e2e
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
